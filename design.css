@@ -1,0 +1,239 @@
+.navbar {
+  background-color: #fff;
+  text-align: center;
+  font-family: Helvetica;
+  color: #354463;
+  font-size: 20px;
+}
+.anni img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.rec {
+  display: flex;
+  position: relative;
+  margin-top: -1200px;
+  margin-left: 160px;
+  width: 640px;
+  height: 1016px;
+  background-color: #354463;
+}
+
+.rec h1 {
+  margin-left: 50px;
+  margin-top: 70px;
+  font: normal normal bold 28px/36px Helvetica;
+  color: #fff;
+}
+.name {
+  display: flex;
+  margin-top: 150px;
+  margin-left: -220px;
+  gap: 150px;
+}
+.name label {
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #fff;
+}
+.name hr {
+  border: 2px solid #c1f7d5;
+  width: 200px;
+}
+
+.name input {
+  border: none;
+  background: transparent;
+}
+
+/* --------------street-Address------------- */
+.street {
+  margin-top: 20px;
+  margin-left: -220px;
+}
+.street label {
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #fff;
+}
+.street input {
+  border: none;
+  background: transparent;
+}
+.street hr {
+  border: 2px solid #c1f7d5;
+}
+/* ----------city-pincode---------- */
+.city-pincode {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -220px;
+  gap: 40px;
+}
+
+.city-pincode label {
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #fff;
+}
+.city-pincode input {
+  border: none;
+  background: transparent;
+}
+
+.drop-down {
+  border: none;
+  background: transparent;
+  color: #c1f7d5;
+}
+.city-pincode hr {
+  border: 2px solid #c1f7d5;
+}
+
+/* ---------------email-------------- */
+.email {
+  margin-top: 20px;
+  margin-left: -220px;
+}
+.email label {
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #fff;
+}
+.email input {
+  border: none;
+  background: transparent;
+}
+.email hr {
+  border: 2px solid #c1f7d5;
+}
+
+/* ---------------payment info---------- */
+.rec h2 {
+  margin-left: -220px;
+  margin-top: 70px;
+  font: normal normal bold 28px/36px Helvetica;
+  color: #fff;
+}
+/* -----------credi card no -------- */
+.credit {
+  margin-top: 50px;
+  margin-left: -220px;
+}
+.credit label {
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #fff;
+}
+.credit input {
+  border: none;
+  background: transparent;
+}
+.credit hr {
+  border: 2px solid #c1f7d5;
+}
+
+/* ----------------card detail------- */
+
+.card-detail {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -220px;
+  gap: 30px;
+}
+
+.card-detail label {
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #fff;
+}
+.card-detail input {
+  border: none;
+  background: transparent;
+}
+
+.card-detail hr {
+  border: 2px solid #c1f7d5;
+}
+
+.mm {
+  flex: initial;
+}
+.yyyy {
+  flex: none;
+}
+.cvc {
+  flex: none;
+}
+
+/* ----------------------------hedding end------------ */
+#las-hed {
+  margin-top: 50px;
+  margin-left: -220px;
+  text-align: left;
+  font: normal normal bold 28px/36px Helvetica;
+  color: #ffffff;
+}
+
+/* ---------------go back and proceess payment button --------- */
+
+.go-back a {
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal 300 16px/56px Helvetica;
+  letter-spacing: -0.16px;
+  color: #c1f7d5;
+}
+
+.process button {
+  background-color: #c1f7d5;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 80px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #354463;
+  font: normal normal bold 22px/28px Helvetica;
+}
+
+.submit {
+  display: flex;
+  margin-left: -220px;
+  margin-top: 50px;
+  gap: 250px;
+}
+
+/* -----------------text of give hope-------- */
+
+.give-hope {
+  text-align: left;
+  margin-top: -1100px;
+  margin-left: 900px;
+  font-family: "flood-std", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  color: #ffffff;
+}
+/* ---------------footer-------------- */
+
+.end {
+    background-color: #fff;
+    display: flex;
+    margin-top: 900px;
+    gap: 100px;
+    text-align: left;
+    margin-left: 150px;
+    color: #354463;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 5px;
+}
